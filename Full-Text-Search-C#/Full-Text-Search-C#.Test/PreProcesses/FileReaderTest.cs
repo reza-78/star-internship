@@ -4,11 +4,22 @@ namespace Full_Text_Search_C_.Test.PreProcesses;
 
 public class FileReaderTest
 {
-    public void LoadDataTest()
+    [Fact]
+    public void ReadFileTest()
     {
-        IDataLoader dataLoader = new FileReader();
-        var result = ((FileReader)dataLoader).ReadFile("testDoc.txt");
+        IFileReader fileReader = new FileReader();
+        var result = fileReader.ReadFile("testDoc.txt");
         Assert.Equal(3, result.Length);
         Assert.Equal(new []{"hello", "world", "!"}, result);
     }
+
+    [Fact]
+    public void ReadFilesInDirectoryTest()
+    {
+        IFileReader fileReader = new FileReader();
+        var result = fileReader.ReadFilesInDirectory("dataDirectory");
+        Assert.Single(result);
+    }
+    
+    
 }

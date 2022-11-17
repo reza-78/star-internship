@@ -105,3 +105,4 @@
 /media/reza/01D51E8C1ACC0290/Projects/star internship/Full-Text-Search-C#/Full-Text-Search-C#.Test/bin/Debug/net6.0/System.Diagnostics.EventLog.dll
 /media/reza/01D51E8C1ACC0290/Projects/star internship/Full-Text-Search-C#/Full-Text-Search-C#.Test/bin/Debug/net6.0/runtimes/win/lib/net6.0/System.Diagnostics.EventLog.Messages.dll
 /media/reza/01D51E8C1ACC0290/Projects/star internship/Full-Text-Search-C#/Full-Text-Search-C#.Test/bin/Debug/net6.0/runtimes/win/lib/net6.0/System.Diagnostics.EventLog.dll
+/media/reza/01D51E8C1ACC0290/Projects/star internship/Full-Text-Search-C#/Full-Text-Search-C#.Test/bin/Debug/net6.0/dataDirectory/testDoc.txt

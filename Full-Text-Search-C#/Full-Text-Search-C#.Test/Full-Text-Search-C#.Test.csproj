@@ -29,6 +29,12 @@
 
   <ItemGroup>
     <None Remove="testDoc.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="dataDirectory\testDoc.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="testDoc.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
