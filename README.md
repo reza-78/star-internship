@@ -1,1 +1,2 @@
 [![build](https://github.com/reza-78/star-internship/actions/workflows/buildPipeline.yml/badge.svg)](https://github.com/reza-78/star-internship/actions/workflows/buildPipeline.yml)
+[![codecov](https://codecov.io/gh/reza-78/star-internship/branch/main/graph/badge.svg?token=5SMHRJ8X6A)](https://codecov.io/gh/reza-78/star-internship)
