@@ -1,0 +1,12 @@
+/media/reza/01D51E8C1ACC0290/Projects/star internship/Full-Text-Search-C#/Full-Text-Search-C#/bin/Debug/net6.0/Full-Text-Search-C#.deps.json
+/media/reza/01D51E8C1ACC0290/Projects/star internship/Full-Text-Search-C#/Full-Text-Search-C#/bin/Debug/net6.0/Full-Text-Search-C#.dll
+/media/reza/01D51E8C1ACC0290/Projects/star internship/Full-Text-Search-C#/Full-Text-Search-C#/bin/Debug/net6.0/Full-Text-Search-C#.pdb
+/media/reza/01D51E8C1ACC0290/Projects/star internship/Full-Text-Search-C#/Full-Text-Search-C#/obj/Debug/net6.0/Full-Text-Search-C#.csproj.AssemblyReference.cache
+/media/reza/01D51E8C1ACC0290/Projects/star internship/Full-Text-Search-C#/Full-Text-Search-C#/obj/Debug/net6.0/Full-Text-Search-C#.GeneratedMSBuildEditorConfig.editorconfig
+/media/reza/01D51E8C1ACC0290/Projects/star internship/Full-Text-Search-C#/Full-Text-Search-C#/obj/Debug/net6.0/Full-Text-Search-C#.AssemblyInfoInputs.cache
+/media/reza/01D51E8C1ACC0290/Projects/star internship/Full-Text-Search-C#/Full-Text-Search-C#/obj/Debug/net6.0/Full-Text-Search-C#.AssemblyInfo.cs
+/media/reza/01D51E8C1ACC0290/Projects/star internship/Full-Text-Search-C#/Full-Text-Search-C#/obj/Debug/net6.0/Full-Text-Search-C#.csproj.CoreCompileInputs.cache
+/media/reza/01D51E8C1ACC0290/Projects/star internship/Full-Text-Search-C#/Full-Text-Search-C#/obj/Debug/net6.0/Full-Text-Search-C#.dll
+/media/reza/01D51E8C1ACC0290/Projects/star internship/Full-Text-Search-C#/Full-Text-Search-C#/obj/Debug/net6.0/refint/Full-Text-Search-C#.dll
+/media/reza/01D51E8C1ACC0290/Projects/star internship/Full-Text-Search-C#/Full-Text-Search-C#/obj/Debug/net6.0/Full-Text-Search-C#.pdb
+/media/reza/01D51E8C1ACC0290/Projects/star internship/Full-Text-Search-C#/Full-Text-Search-C#/obj/Debug/net6.0/ref/Full-Text-Search-C#.dll

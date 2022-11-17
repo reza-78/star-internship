@@ -1,0 +1,19 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=66220be1_002D8753_002D48a8_002D8162_002Dc91a2c425f3b/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="InvertedIndexTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::13C87C3F-9FD3-4979-96BC-0AC0ACE5B954::net6.0::Full_Text_Search_C_.Test.Models.InvertedIndexTest&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::13C87C3F-9FD3-4979-96BC-0AC0ACE5B954::net6.0::Full_Text_Search_C_.Test.PreProcesses.InvertedIndexFactoryTest&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=8a97242d_002D932d_002D435d_002D856c_002Db2819d4b01a3/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="InvertedIndexTest #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::13C87C3F-9FD3-4979-96BC-0AC0ACE5B954::net6.0::Full_Text_Search_C_.Test.Models.InvertedIndexTest&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::13C87C3F-9FD3-4979-96BC-0AC0ACE5B954::net6.0::Full_Text_Search_C_.Test.PreProcesses.InvertedIndexFactoryTest&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=eacbb435_002D4596_002D41cd_002Dabe2_002Ddcb85f345856/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="InvertedIndexTest #3" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::13C87C3F-9FD3-4979-96BC-0AC0ACE5B954::net6.0::Full_Text_Search_C_.Test.Models.InvertedIndexTest&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::13C87C3F-9FD3-4979-96BC-0AC0ACE5B954::net6.0::Full_Text_Search_C_.Test.PreProcesses.InvertedIndexFactoryTest&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
