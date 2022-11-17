@@ -8,7 +8,6 @@ public class QueryProcessor
 
     public void ParseExpression(string expression)
     {
-        ClearLists();
         var words = expression.Split(" ");
         foreach (var word in words)
         {
@@ -25,12 +24,5 @@ public class QueryProcessor
                     break;
             }
         }
-    }
-
-    private void ClearLists()
-    {
-        Include.Clear();
-        Exclude.Clear();
-        AtLeastOneInclude.Clear();
     }
 }

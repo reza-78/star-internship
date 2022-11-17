@@ -6,16 +6,16 @@ namespace Full_Text_Search_C_.PreProcesses;
 public class InvertedIndexFactory
 {
     private readonly InvertedIndex _invertedIndex = new();
-    private readonly IDataLoader _dataLoader;
+    private readonly IFileReader _dataLoader;
 
-    public InvertedIndexFactory(IDataLoader dataLoader)
+    public InvertedIndexFactory(IFileReader dataLoader)
     {
         _dataLoader = dataLoader;
     }
 
     public InvertedIndex CreateInvertedIndex(string folderPath)
     {
-        ReadTermsFromFile(((FileReader)_dataLoader).ReadFilesInDirectory(folderPath));
+        ReadTermsFromFile(_dataLoader.ReadFilesInDirectory(folderPath));
         return _invertedIndex;
     }
 
@@ -24,7 +24,7 @@ public class InvertedIndexFactory
         var counter = 1;
         foreach (var file in files)
         {
-            InsertTermsToInvertedIndex(_dataLoader.LoadData(file), counter++);
+            InsertTermsToInvertedIndex(_dataLoader.ReadFile(file), counter++);
         }
     }
 

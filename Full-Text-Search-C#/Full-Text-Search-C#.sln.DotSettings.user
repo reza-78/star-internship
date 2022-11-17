@@ -12,8 +12,5 @@
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String>
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=eacbb435_002D4596_002D41cd_002Dabe2_002Ddcb85f345856/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="InvertedIndexTest #3" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
-  &lt;TestAncestor&gt;
-    &lt;TestId&gt;xUnit::13C87C3F-9FD3-4979-96BC-0AC0ACE5B954::net6.0::Full_Text_Search_C_.Test.Models.InvertedIndexTest&lt;/TestId&gt;
-    &lt;TestId&gt;xUnit::13C87C3F-9FD3-4979-96BC-0AC0ACE5B954::net6.0::Full_Text_Search_C_.Test.PreProcesses.InvertedIndexFactoryTest&lt;/TestId&gt;
-  &lt;/TestAncestor&gt;
+  &lt;Project Location="/media/reza/01D51E8C1ACC0290/Projects/star internship/Full-Text-Search-C#/Full-Text-Search-C#.Test" Presentation="&amp;lt;Full-Text-Search-C#.Test&amp;gt;" /&gt;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

@@ -28,10 +28,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Search" />
-  </ItemGroup>
-
-  <ItemGroup>
     <None Remove="testDoc.txt" />
     <Content Include="testDoc.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
