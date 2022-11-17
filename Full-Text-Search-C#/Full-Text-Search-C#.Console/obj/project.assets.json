@@ -2,20 +2,20 @@
   "version": 3,
   "targets": {
     "net6.0": {
-      "Full-Text-Search-C#/1.0.0": {
+      "searcher-int-sh/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "compile": {
-          "bin/placeholder/Full-Text-Search-C#.dll": {}
+          "bin/placeholder/searcher-int-sh.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Full-Text-Search-C#.dll": {}
+          "bin/placeholder/searcher-int-sh.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "Full-Text-Search-C#/1.0.0": {
+    "searcher-int-sh/1.0.0": {
       "type": "project",
       "path": "../Full-Text-Search-C#/Full-Text-Search-C#.csproj",
       "msbuildProject": "../Full-Text-Search-C#/Full-Text-Search-C#.csproj"
@@ -23,7 +23,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "Full-Text-Search-C# >= 1.0.0"
+      "searcher-int-sh >= 1.0.0"
     ]
   },
   "packageFolders": {

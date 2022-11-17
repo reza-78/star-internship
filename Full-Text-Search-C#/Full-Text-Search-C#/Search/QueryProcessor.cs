@@ -1,28 +1,30 @@
+using Full_Text_Search_C_.Models;
+
 namespace Full_Text_Search_C_.Search;
 
 public class QueryProcessor
 {
-    public List<string> Include { get; } = new();
-    public List<string> Exclude { get; } = new();
-    public List<string> AtLeastOneInclude { get; } = new();
-
-    public void ParseExpression(string expression)
+    public ParsedExpression ParseExpression(string expression)
     {
+        List<string> include = new();
+        List<string> exclude = new();
+        List<string> atLeastOneInclude = new();
         var words = expression.Split(" ");
         foreach (var word in words)
         {
             switch (word[0])
             {
                 case '+':
-                    AtLeastOneInclude.Add(word.Substring(1));
+                    atLeastOneInclude.Add(word.Substring(1));
                     break;
                 case '-':
-                    Exclude.Add(word.Substring(1));
+                    exclude.Add(word.Substring(1));
                     break;
                 default:
-                    Include.Add(word);
+                    include.Add(word);
                     break;
             }
         }
+        return new ParsedExpression(include, exclude, atLeastOneInclude);
     }
 }

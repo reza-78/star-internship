@@ -5,7 +5,7 @@ namespace Full_Text_Search_C_.Search;
 public class Searcher
 {
     private readonly FilterProvider _filterProvider;
-    private QueryProcessor _queryProcessor;
+    private readonly QueryProcessor _queryProcessor;
 
     public Searcher()
     {
@@ -13,19 +13,19 @@ public class Searcher
             .CreateInvertedIndex("../../../../EnglishData"));
     }
 
-    public HashSet<int>? Search(string expression)
+    public Searcher(FilterProvider filterProvider ,QueryProcessor queryProcessor)
     {
-        PrepareQueryProcessor(expression);
-        HashSet<int> result = _filterProvider.FindDocsInclude(_queryProcessor.Include);
-        HashSet<int> resultAfterRemoveDocsExclude = _filterProvider.RemoveDocsExclude(result, _queryProcessor.Exclude);
-        HashSet<int> resultAfterFindDocsAtLeastOneInclude =
-            _filterProvider.FindDocsAtLeastOneInclude(resultAfterRemoveDocsExclude, _queryProcessor.AtLeastOneInclude);
-        return resultAfterFindDocsAtLeastOneInclude;
+        _filterProvider = filterProvider;
+        _queryProcessor = queryProcessor;
     }
 
-    private void PrepareQueryProcessor(string expression)
+    public HashSet<int>? Search(string expression)
     {
-        _queryProcessor = new QueryProcessor();
-        _queryProcessor.ParseExpression(expression);
+        var parsedExpression = _queryProcessor.ParseExpression(expression);
+        HashSet<int> result = _filterProvider.FindDocsInclude(parsedExpression.Include);
+        HashSet<int> resultAfterRemoveDocsExclude = _filterProvider.RemoveDocsExclude(result, parsedExpression.Exclude);
+        HashSet<int> resultAfterFindDocsAtLeastOneInclude =
+            _filterProvider.FindDocsAtLeastOneInclude(resultAfterRemoveDocsExclude, parsedExpression.AtLeastOneInclude);
+        return resultAfterFindDocsAtLeastOneInclude;
     }
 }

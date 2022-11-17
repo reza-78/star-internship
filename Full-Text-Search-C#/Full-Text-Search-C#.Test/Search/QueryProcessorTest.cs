@@ -9,12 +9,12 @@ public class QueryProcessorTest
     {
         string expression = "hello -world +!";
         QueryProcessor queryProcessor = new QueryProcessor();
-        queryProcessor.ParseExpression(expression);
-        Assert.Single(queryProcessor.Include);
-        Assert.Single(queryProcessor.Exclude);
-        Assert.Single(queryProcessor.AtLeastOneInclude);
-        Assert.Equal("hello", queryProcessor.Include[0]);
-        Assert.Equal("world", queryProcessor.Exclude[0]);
-        Assert.Equal("!", queryProcessor.AtLeastOneInclude[0]);
+        var parsedExpression = queryProcessor.ParseExpression(expression);
+        Assert.Single(parsedExpression.Include);
+        Assert.Single(parsedExpression.Exclude);
+        Assert.Single(parsedExpression.AtLeastOneInclude);
+        Assert.Equal("hello", parsedExpression.Include[0]);
+        Assert.Equal("world", parsedExpression.Exclude[0]);
+        Assert.Equal("!", parsedExpression.AtLeastOneInclude[0]);
     }
 }
