@@ -1717,14 +1717,14 @@
           "build/netcoreapp2.1/xunit.runner.visualstudio.props": {}
         }
       },
-      "searcher-int-sh/1.0.0": {
+      "SEARCHER_CODE_STAR/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "compile": {
-          "bin/placeholder/searcher-int-sh.dll": {}
+          "bin/placeholder/SEARCHER_CODE_STAR.dll": {}
         },
         "runtime": {
-          "bin/placeholder/searcher-int-sh.dll": {}
+          "bin/placeholder/SEARCHER_CODE_STAR.dll": {}
         }
       }
     }
@@ -6102,7 +6102,7 @@
         "xunit.runner.visualstudio.nuspec"
       ]
     },
-    "searcher-int-sh/1.0.0": {
+    "SEARCHER_CODE_STAR/1.0.0": {
       "type": "project",
       "path": "../Full-Text-Search-C#/Full-Text-Search-C#.csproj",
       "msbuildProject": "../Full-Text-Search-C#/Full-Text-Search-C#.csproj"
@@ -6112,8 +6112,8 @@
     "net6.0": [
       "Microsoft.NET.Test.Sdk >= 17.1.0",
       "NSubstitute >= 4.4.0",
+      "SEARCHER_CODE_STAR >= 1.0.0",
       "coverlet.collector >= 3.1.2",
-      "searcher-int-sh >= 1.0.0",
       "xunit >= 2.4.1",
       "xunit.runner.visualstudio >= 2.4.3"
     ]

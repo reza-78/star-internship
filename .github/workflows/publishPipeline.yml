@@ -20,5 +20,5 @@ jobs:
         with:
           repository: reza-78/star-internship
       - name: Build library and generate NuGet Package
-        run: dotnet pack -c Release -o artifacts -p:PackageVersion=${{ steps.version.outputs.release }}
+        run: dotnet pack -c Release -o artifacts -p:PackageVersion=v1.0
         working-directory: Full-Text-Search-C#/Full-Text-Search-C#
