@@ -8,9 +8,9 @@
     ".NETCoreApp,Version=v6.0": {
       "Full-Text-Search-C#.Test/1.0.0": {
         "dependencies": {
-          "Full-Text-Search-C#": "1.0.0",
           "Microsoft.NET.Test.Sdk": "17.1.0",
           "NSubstitute": "4.4.0",
+          "SEARCHER_CODE_STAR": "1.0.0",
           "coverlet.collector": "3.1.2",
           "xunit": "2.4.1",
           "xunit.runner.visualstudio": "2.4.3"
@@ -1135,7 +1135,7 @@
         }
       },
       "xunit.runner.visualstudio/2.4.3": {},
-      "Full-Text-Search-C#/1.0.0": {
+      "SEARCHER_CODE_STAR/1.0.0": {
         "runtime": {
           "Full-Text-Search-C#.dll": {}
         }
@@ -1813,7 +1813,7 @@
       "path": "xunit.runner.visualstudio/2.4.3",
       "hashPath": "xunit.runner.visualstudio.2.4.3.nupkg.sha512"
     },
-    "Full-Text-Search-C#/1.0.0": {
+    "SEARCHER_CODE_STAR/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

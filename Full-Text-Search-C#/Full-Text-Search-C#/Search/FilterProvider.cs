@@ -28,7 +28,7 @@ public class FilterProvider
 
     public HashSet<int> RemoveDocsExclude(HashSet<int> docsInclude, List<string> excludeWords)
     {
-        if (docsInclude.Count == 0) return null;
+        if (excludeWords.Count == 0 || docsInclude.Count == 0) return docsInclude;
         foreach (var term in excludeWords)
         {
             foreach (var doc in _invertedIndex.Get(term))
@@ -41,7 +41,7 @@ public class FilterProvider
 
     public HashSet<int> FindDocsAtLeastOneInclude(HashSet<int> docs, List<string> includeAtLeastOneWords)
     {
-        if (docs.Count == 0) return null;
+        if (includeAtLeastOneWords.Count == 0 || docs.Count == 0) return docs;
         HashSet<int> docsIncludeAtLeastOne = new HashSet<int>();
         foreach (var term in includeAtLeastOneWords)
         {

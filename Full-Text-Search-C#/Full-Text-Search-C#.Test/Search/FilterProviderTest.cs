@@ -38,7 +38,21 @@ public class FilterProviderTest
     }
     
     [Fact]
-    public void RemoveDocsExclude_EmptySet_RemoveDocs_Test()
+    public void RemoveDocsExclude_EmptyExcludeList_ReturnInputSet_Test()
+    {
+        var invertedIndex = new InvertedIndex(new Dictionary<string, HashSet<int>>()
+        {
+            {"world", new HashSet<int>() {1, 3}},
+        });
+        var excludeWords = new List<string>();
+        var docs = new HashSet<int>() {1, 2};
+        FilterProvider filterProvider = new FilterProvider(invertedIndex);
+        var result = filterProvider.RemoveDocsExclude(docs, excludeWords);
+        Assert.Equal(docs, result);
+    }
+    
+    [Fact]
+    public void RemoveDocsExclude_EmptySetOfDocs_ReturnInputSet_Test()
     {
         var invertedIndex = new InvertedIndex(new Dictionary<string, HashSet<int>>()
         {
@@ -48,7 +62,7 @@ public class FilterProviderTest
         var docs = new HashSet<int>();
         FilterProvider filterProvider = new FilterProvider(invertedIndex);
         var result = filterProvider.RemoveDocsExclude(docs, excludeWords);
-        Assert.Null(result);
+        Assert.Equal(docs, result);
     }
     
     [Fact]
@@ -70,7 +84,22 @@ public class FilterProviderTest
     }
     
     [Fact]
-    public void FindDocsAtLeastOneInclude_EmptySet_FoundDocs_Test()
+    public void FindDocsAtLeastOneInclude_EmptyAtLeastOneIncludeList_FoundDocs_Test()
+    {
+        var invertedIndex = new InvertedIndex(new Dictionary<string, HashSet<int>>()
+        {
+            {"world", new HashSet<int>() {1, 3}},
+        });
+        var atLeastIncludeWords = new List<string>();
+        var docs = new HashSet<int>() {1, 2};
+        FilterProvider filterProvider = new FilterProvider(invertedIndex);
+        var result = filterProvider.FindDocsAtLeastOneInclude(docs, atLeastIncludeWords);
+        
+        Assert.Equal(docs, result);
+    }
+    
+    [Fact]
+    public void FindDocsAtLeastOneInclude_EmptySetOfDocs_FoundDocs_Test()
     {
         var invertedIndex = new InvertedIndex(new Dictionary<string, HashSet<int>>()
         {
@@ -81,6 +110,6 @@ public class FilterProviderTest
         FilterProvider filterProvider = new FilterProvider(invertedIndex);
         var result = filterProvider.FindDocsAtLeastOneInclude(docs, atLeastIncludeWords);
         
-        Assert.Null(result);
+        Assert.Equal(docs, result);
     }
 }
