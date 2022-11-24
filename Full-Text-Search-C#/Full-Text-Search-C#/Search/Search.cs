@@ -11,6 +11,7 @@ public class Searcher
     {
         _filterProvider = new FilterProvider(new InvertedIndexFactory(new FileReader())
             .CreateInvertedIndex(dataPath));
+        _queryProcessor = new QueryProcessor();
     }
 
     public Searcher(FilterProvider filterProvider ,QueryProcessor queryProcessor)
