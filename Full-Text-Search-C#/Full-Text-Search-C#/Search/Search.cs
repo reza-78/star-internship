@@ -7,10 +7,10 @@ public class Searcher
     private readonly FilterProvider _filterProvider;
     private readonly QueryProcessor _queryProcessor;
 
-    public Searcher()
+    public Searcher(string dataPath)
     {
         _filterProvider = new FilterProvider(new InvertedIndexFactory(new FileReader())
-            .CreateInvertedIndex("../../../../EnglishData"));
+            .CreateInvertedIndex(dataPath));
     }
 
     public Searcher(FilterProvider filterProvider ,QueryProcessor queryProcessor)
