@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "g3HZLSgIRixhVY7eEtfpgBYyQhAPTxoqqMVjeDAm9eIbTq/gslPPCaUFYtjKpta7Yrx9tUID06IQzUEH/x56Xg==",
+  "success": true,
+  "projectFilePath": "/media/reza/01D51E8C1ACC0290/Projects/star internship/ASPFirstApp/ASPFirstApp.csproj",
+  "expectedPackageFiles": [
+    "/home/reza/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "/home/reza/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/home/reza/.nuget/packages/searcher_code_star/1.0.4/searcher_code_star.1.0.4.nupkg.sha512",
+    "/home/reza/.nuget/packages/swashbuckle.aspnetcore/6.2.3/swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "/home/reza/.nuget/packages/swashbuckle.aspnetcore.swagger/6.2.3/swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "/home/reza/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.2.3/swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "/home/reza/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.2.3/swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}
